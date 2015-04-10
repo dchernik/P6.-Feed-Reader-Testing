@@ -90,3 +90,13 @@ h2 {
     padding: 1em;
     margin: 0.5em 0;
 }
+
+button,
+.menu li a {
+    display: inline;
+    clear: both;
+}
+
+button {
+    float: right;
+}
