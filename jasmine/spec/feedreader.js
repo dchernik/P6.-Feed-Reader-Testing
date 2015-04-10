@@ -98,7 +98,7 @@ $(function() {
 		// Uses jasmine-jquery library
 		it('deletes a feed from the list', function() {
 			// remember the tested list item
-			var $temp = $('a[data-id="0"').parent();
+			var $temp = $('a[data-id="0"]').parent();
 
 			// simulate remove-button click
 			$('button[data-id="0"]').click();
